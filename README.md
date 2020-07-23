@@ -1,6 +1,6 @@
 # Building Real-time Monitoring and Alert Systems with Amazon CloudWatch and AWS CDK
 
-## Step 0: 
+## Step 0: Clone repository
 ```shell
 git clone https://github.com/jialechan/cdk_cloudwatch_alarm_demo.git
 ```
