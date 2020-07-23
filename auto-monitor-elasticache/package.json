@@ -1,0 +1,34 @@
+{
+  "name": "auto-monitor-elasticache",
+  "version": "0.1.0",
+  "bin": {
+    "auto-monitor-elasticache": "bin/auto-monitor-elasticache.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.54.0",
+    "@types/jest": "^26.0.5",
+    "@types/node": "14.0.24",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.3",
+    "aws-cdk": "1.54.0",
+    "ts-node": "^8.10.2",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cloudwatch": "^1.54.0",
+    "@aws-cdk/aws-cloudwatch-actions": "^1.54.0",
+    "@aws-cdk/aws-ec2": "^1.54.0",
+    "@aws-cdk/aws-lambda": "^1.54.0",
+    "@aws-cdk/aws-sns": "^1.54.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.54.0",
+    "@aws-cdk/core": "1.54.0",
+    "aws-sdk": "^2.718.0",
+    "source-map-support": "^0.5.19"
+  }
+}
